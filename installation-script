@@ -27,3 +27,7 @@ sudo docker run hello-world
 sleep 2
 #
 echo Done!
+
+----
+
+# Licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
