@@ -33,18 +33,18 @@ Minimal interaction required.
 🚀 Usage
 
 1. Clone this repository
-
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-
+```
+git clone https://github.com/morteck/docker-install.git
+cd docker-install
+```
 2. Make the script executable
-
+```
 chmod +x install_docker.sh
-
+```
 3. Run the script
-
+```
 ./install_docker.sh
-
+```
 The script will:
 
 1. Update system packages
@@ -83,10 +83,10 @@ Internet access for downloading packages
 🔍 Example Output
 
 When installation completes successfully, you should see Docker's Hello from Docker! message:
-
+```
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
-
+```
 
 ---
 
@@ -102,14 +102,11 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
 This script is intended for clean installations.
 
 If Docker is already installed, you may want to remove old versions first:
-
+```
 sudo apt-get remove docker docker-engine docker.io containerd runc
-
+```
 Customize the script as needed for your environment.
-
-
 
 ---
 
-Would you like me to also make this README GitHub Markdown–styled with badges (like version, license, etc.) so it pops more visually? That would make your repo look more professional.
-
+© 2025 Mikael Todd. Created and maintained by [Mikael Todd](https://github.com/morteck). 
